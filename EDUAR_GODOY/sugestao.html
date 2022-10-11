@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugestão</title>
+    <style>
+
+    *{
+    font-family: sans-serif;
+    }
+
+    .botao, .botao2{
+    padding: 0.2em 0.6em;
+    font-size: 1em;
+    border: 0;
+    color: #ffffff;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(73, 73, 73, 0.5);
+    border-radius: 5px;
+    }
+
+    .botao{
+    background: #cd3232;
+    }
+
+    .botao2{
+    color: black;
+    }
+
+    .botao:hover{
+    background:#8b2222;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+    }
+    .botao2:hover{
+    background:#a1a1a1;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+    }
+
+    input, select, textarea{
+    border-radius: 5px;
+    border: 1px solid #363636;
+    margin-bottom: -2px;
+    }
+
+    .titulo{
+    text-shadow: 2px 1px 1px rgba(194, 194, 194, 0.5);
+    }
+
+    </style>
+</head>
+<body marginwidth="35">
+<base target="principal">
+
+    <br>
+
+    <font face="Arial">
+
+    <form>
+        <h2><div class="titulo">Digite uma sugestão de como melhorar esta página</div></h2>
+
+        <div class="nome">Nome:<br><input type="text" name="nome" id="nome"></div>
+
+        <br>
+        <br>
+
+        <div>E-mail:<br><input type="email" name="email" id="email"></div>
+        
+        <br>
+        <br>
+
+        <div class="selecione">
+        Dê uma nota para esta página:<br>
+            <select name="nota" id="nota">
+                <option value="Selecione" selected disabled>Selecione</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+
+        <br>
+        <br>
+
+        Sugestão:<br><textarea name="sugestao" rows="12" cols="50"></textarea>
+        <br><br>
+        <button type="submit" class="botao">ENVIAR</button>
+        <button type="reset" class="botao2">CANCELAR</button>
+    </form> 
+
+    </font>
+</body>
+</html>
