@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="imagens/icon.jpg" type="image/x-icon">
+</head>
+<body>
+
+    <script>
+        let btn = document.querySelector('#verSenha')
+
+        btn-addEventListener('click', ()=>{
+            let inputSenha = document.querySelector('#senha')
+
+            if(inputSenha.getAttribute('type') == 'password'){
+                 inputSenha.setAttribute('type', 'text') 
+            } else{
+                inputSenha.setAttribute('type', 'password') 
+            }
+        })
+
+        
+    </script>
+
+    <script>
+        
+        let btnConfirm =
+          document.querySelector('#verConfirmSenha')
+
+          btnConfirm-addEventListener('click', ()=>{
+            let inputConfirmSenha = document.querySelector('#confirmsenha')
+
+            if(inputConfirmSenha.getAttribute('type') == 'password'){
+                 inputConfirmSenha.setAttribute('type', 'text') 
+            } else{
+                inputConfirmSenha.setAttribute('type', 'password') 
+            }
+        })
+
+    </script>
+
+
+
+    <div class="container">
+        <div class="card">
+            <h1>Cadastrar</h1>
+
+            <div class="labelf">
+                <input type="text" id="nome" placeholder="" required>
+                <label for="nome">Nome</label>
+            </div>
+
+            <div class="labelf">
+                <input type="text" id="usuario" placeholder="" required>
+                <label for="usuario">Usuario</label>
+            </div>
+
+            <div class="labelf">
+                <input type="password" id="senha" placeholder="" required>
+                <label for="senha">Senha</label>
+                <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+            </div>
+
+            <div class="labelf">
+                <input type="password" id="confirmsenha" placeholder="" required>
+                <label for="confirmSenha">Confirmar Senha</label>
+                <i id="verConfirmSenha" class="fa fa-eye" aria-hidden="true"></i>
+            </div>
+ 
+            <div class="alinhamento">
+                <button>Cadastrar</button>
+                <button onclick="window.location.href='index.html'">Voltar</button>
+            </div>
+
+
+            </div>
+
+</body>
+</html>
