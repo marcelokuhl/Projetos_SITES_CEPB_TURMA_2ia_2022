@@ -1,3 +1,4 @@
+<html>
 <img align="right" width="250px" style="margin-top:-20px" src="https://user-images.githubusercontent.com/68967909/194184154-08c18020-794c-4d08-ba17-194d530fdc85.png" width="80"></br></br>
 # Projetos_SITES_CEPB_TURMA_2ia_2022
 ## Curso Técnico em Informática Integrado - Disciplina Internet e Programação WEB I 
@@ -16,4 +17,4 @@
 marcelokuhl/marcelokuhl is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-
+</html>
