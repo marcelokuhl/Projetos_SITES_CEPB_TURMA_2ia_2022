@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#titulo h1.black{
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+}
+
+
+#historia p{
+    font-family: 'Libre Baskerville', serif;
+    text-align: justify;
+    line-height: 35px;
+    font-size: 20px;
+}
+#historia2 p{
+    font-family: 'Libre Baskerville', serif;
+    text-align: justify;
+    line-height: 35px;
+    font-size: 18px;
+}
+
+#bottomVoltar a{
+    background-color: #0f5fff;
+    border-radius: 50px;
+    font-family: 'Libre Baskerville', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px 25px 10px 25px;
+}
+#bottomVoltar a:hover{
+    background-color: #0f3fff;
+}
+
+#bottomVoltar2 a{
+    background-color: #0f5fff;
+    border-radius: 50px;
+    font-family: 'Libre Baskerville', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px 25px 10px 25px;
+}
+#bottomVoltar2 a:hover{
+    background-color: #0f3fff;
+}
+.containerLink{
+    margin-top: 90px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+/*Dark mode*/
+#darkmode{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 95%;
+}
+
+/* Definindo o Footer */
+
+.footer{
+    color: white;
+    background: #111111;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 35px;
+    width: 1305px;
+    margin-bottom: -20px;
+    margin-left: -205px;
+}
+
+.conteudo3{
+    display: flex;
+    justify-content: center;
+}
+
+.text-footer i{
+    display: inline-block;
+    color: #111111;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 4px;
+    background: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+
+.footer #copy{
+    font-size: 14px;
+}
+
+.footer #copy2{
+    font-size: 18px;
+}
