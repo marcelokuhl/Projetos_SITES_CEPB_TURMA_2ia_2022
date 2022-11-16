@@ -1,0 +1,79 @@
+<HTML lang="pt-br">
+
+	<HEAD>
+		<TITLE>rouba cartão</TITLE>
+	</HEAD>
+
+	<STYLE type="text/css">
+	.form1{
+		border-radius: 60px;
+		border: 10px solid rgb(245, 245, 245);
+		width: 45%;
+		height: 95%;
+		background-color: #31313194;
+		color: #F3FCFE;
+		font-family: Bell MT;
+		align-items: center;
+	}
+	.form1 input{
+		border-radius: 35px;
+		padding: 5px;
+		background-color:
+	}
+	.form1 button{
+		border-radius: 25px;
+		padding: 5px;
+		width: 240px;
+	}
+	body{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #141414;
+	}
+	
+    select {
+        border-radius: 40px;
+    }
+	</STYLE>
+
+
+<BODY>
+
+
+
+<DIV class="form1">
+	<CENTER>
+		<FORM action="" method="POST" align="center">
+		
+			<BR><BR>
+			<CENTER><H1> Insira os dados do seu cartão </H1></CENTER>
+            <br><BR>
+			
+			<LABEL> Nome: </LABEL>
+			<INPUT TYPE="text" placeholder="Insira seu Nome " id="Nome" maxlength="35" required></INPUT>
+			<BR><BR><BR>
+
+                <LABEL> Número: </LABEL>
+			<INPUT TYPE="text" placeholder="Insira o Número do seu cartão " id="numero" maxlength="35" required></INPUT>
+			<BR><BR><BR>
+
+                <LABEL> Senha: </LABEL>
+                <INPUT TYPE="password" placeholder="Insira sua Senha " ID="Senha" maxlength="10" required></INPUT>
+                <BR><BR><br>
+
+                <LABEL> CVV: </LABEL>
+			<INPUT TYPE="text" placeholder="Insira o CVV: " id="cvv" maxlength="35" required></INPUT>
+			<BR><BR><BR>
+
+                <LABEL> Data de validade: </LABEL>
+			<INPUT TYPE="date" id="date" required></INPUT><BR><BR>
+
+                <BUTTON TYPE="submit" value="conf" id="conf"> Confirmar </BUTTON><BR><BR>
+			
+		</FORM>
+	</CENTER>
+</DIV>
+
+</BODY>
+</HTML>

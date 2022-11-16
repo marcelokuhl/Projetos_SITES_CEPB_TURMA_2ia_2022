@@ -1,0 +1,362 @@
+<HTML lang="pt-br">
+
+	<HEAD>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/3a9374c826.js" crossorigin="anonymous"></script>
+        
+		<TITLE>PC Gamer</TITLE>
+	</HEAD>
+
+	<STYLE type="text/css">
+	body
+{
+    width: 100%;
+     background-color:#d2d1d1;
+    font-family: 'RobotoDraft', 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-direction: column;
+}
+
+*
+{
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+header h1 {
+    font-family: Comic Sans MS;
+    color: rgb(132, 1, 255)
+}
+
+header a {
+    font-family: Comic Sans MS;
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+footer {
+    padding: 200px;
+    background-color: rgb(19, 18, 18);
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    color: rgb(169, 168, 168);
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+hr {
+    height: 100px;
+}
+
+h1 {
+    color: rgb(132, 1, 255)
+}
+
+footer h2 {
+    font-family: Comic Sans MS;
+    color: rgb(255, 255, 255);
+}
+
+footer a {
+    font-family: Comic Sans MS;
+    text-decoration: none;
+    color: rgb(169, 168, 168);
+}
+
+.caixa {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    width: 100%;
+    gap: 50px;
+}
+
+h5
+{
+  margin:0px;
+  font-size:1.4em;
+  font-weight:700;
+}
+
+.preco {
+    color: rgb(132, 1, 255)
+}
+
+button{
+		border-radius: 25px;
+		padding: 5px;
+		width: 240px;
+}
+
+p
+{
+  font-size:18px;
+}
+
+.center
+{
+  height:auto;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right
+{
+  height:auto;
+  width:260%;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+
+.rightp
+{
+  height:auto;
+  width:230%;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+
+.left
+{
+  height:auto;
+  width:100%;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.property-card
+{
+  height:24em;
+  width:18em;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  position:relative;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius:16px;
+  overflow:hidden;
+  -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  box-shadow: rgba(151, 0, 0, 0.938) 0px 5px 15px;
+}
+
+.property-image
+{
+  height:73%;
+  width:100%;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+
+#img4 {
+    background-image: url('./img/pc4.jpg');
+}
+
+.property-description
+{
+  background-color: #FAFAFC;
+  height:36%;
+  width:100%;
+  position:absolute;
+  bottom:0em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 0.5em 1em;
+  text-align:center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-inline: 25px;
+}
+
+.property-description p {
+    font-size: large;
+}
+
+.property-description h5 {
+    color: rgb(132, 1, 255)
+}
+
+.property-card:hover .property-description
+{
+  height:0em;
+  padding:0px 1em;
+}
+
+.property-card:hover .property-image
+{
+  height:100%;
+  position: absolute;
+}
+
+.property-card:hover 
+{
+    width: 380px;
+    background-color:white;
+}
+
+.property-card:hover 
+{
+  background-color: white;
+  cursor:pointer;
+}
+
+.property-card:hover .property-description p, .property-card:hover .property-description h5{
+    display: none;
+}
+
+.btn-subir {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: white;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(255, 3, 3, 0.12) 0px 4px 6px, rgba(250, 0, 0, 0.17) 0px 12px 13px, rgba(180, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.btn-subir a i {
+    color: rgb(132, 1, 255)
+    font-size: xx-large;
+}
+
+img {
+    width: 5%;
+    left: 20px;
+    bottom: 20px;
+    display: flex;
+}
+
+	</STYLE>
+
+
+<BODY>
+
+    <header>
+        <div><a href="index.html">
+            <h1>Lojinha Boa</h1></a>
+        </div> <img src="./img/confia.png">
+        <a href="#footer"><h3>Entre em contato</h3></a>
+    </header>
+
+
+<DIV class="form1">
+	
+		<FORM action="" method="POST" >
+		<main>
+			<div class="caixa">
+                <div class="">
+                    <div class="property-card">
+                        <div class="property-image" id="img4">
+                        </div>
+                      <div class="property-description">
+                        <h5> PC Gamer </h5>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="caixa">
+                    <div class="top">
+                            <h1> PC Gamer </h1> <br><br><br><br>
+                            <p class="center">Processador: Intel Core I7-12700F <br>
+                                Memória RAM: 16GB DDR4 <br>
+                                Placa de Vídeo: RTX 3070 TI 8GB <br>
+                                SSD: M.2 480GB <br>
+                                Fonte: 750w <br>
+                            </p>
+                            <BR><br><BR><br>
+
+                                <DIV class="rightp">
+                                    <div class="preco">
+                                        <p>Preço: R$9.500,00</p>
+                                    </div>
+                                </DIV>
+                                <br>
+                            <DIV class="RIGHT">
+                                <BUTTON TYPE="submit" value="" id=""><A HREF="erro.html" target="_blank"> COMPRAR </A></BUTTON>
+                              </DIV>
+                          </div>
+                        </div>
+                      </div>
+                    
+                
+
+                  
+        </main>
+            
+
+		</FORM>
+        <br><br>
+        <footer>
+            <a name="footer"></a>
+            <h2>Entre em contato:</h2>
+            <hr>
+            <ul>
+                <li><a href="https://api.whatsapp.com/send?phone=554684210363">WhatsApp</a></li>
+                <li><a href="https://www.instagram.com/juniorcbr._/">Instagram</a></li>
+            </ul>
+        </footer>
+        <div class="btn-subir">
+            <a href="#"><i class="fa-solid fa-angles-up"></i></a>
+        </div>
+    
+	
+</DIV>
+
+</BODY>
+</HTML>
+
+
+
+
