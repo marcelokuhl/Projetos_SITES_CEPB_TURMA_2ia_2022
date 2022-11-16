@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*font-family: 'Poppins', sans-serif;*/
+
+*{
+    margin: 0;
+}
+
+.Titulo{
+    width: 100%;
+    height: 39em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #ffffff;
+}
+
+#sub{
+    position: absolute;
+}
+
+h1, h2, h3, p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+}
+
+.Professor{
+    text-align: center;
+    margin-top: 5em;
+}
+
+#prof img{
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+#particles-js{
+    background-color: #111111;
+}
+
+.solo{
+    margin-top: 4em;
+}
+
+.Alunos{
+    text-align: center;
+    margin-top: 4em;
+    display: flex;
+    justify-content: center;
+}
+
+#inf img{
+    margin-top: 2em;
+    margin: 2em;
+    margin-bottom: 1em;
+    margin-top: 0;
+}
+
+
+/*Para a imagem ampliar ao passar o cursor*/
+
+#prof img{
+    -webkit-transition: -webkit-transform .3s ease;
+    transition: transform .3s ease;
+}
+
+#prof img:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#inf img{
+    -webkit-transition: -webkit-transform .3s ease;
+    transition: transform .3s ease;
+}
+
+#inf img:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/*Estilizando seta para voltar*/
+
+.container{
+    display: flex;
+    justify-content: right;
+    margin-right: 2em;
+    margin-top: 3em;
+}
+
+.button button{
+    border-radius: 100%;
+    background-color: #ffffff;
+}
+
+.button img{
+    width: 3em;
+}
+
+.button{
+    position: absolute;
+    width: 4em;
+    height: 3.5em;
+}
+
+/*Estilizando a barra de rolagem*/
+
+body::-webkit-scrollbar {
+    width: 12px;   
+}
+  
+body::-webkit-scrollbar-track {
+    background: #ffffff;   
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #000000;  
+    border-radius: 20px;      
+    border: 3px solid #ffffff; 
+}
+
+/*Definindo footer*/
+
+footer{
+    background-color: #111111;
+    width: 100%;
+    height: 4em;
+    margin-top: 4em;
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    color: #ffffff;
+    padding: 1em 0 1em 0;
+}
