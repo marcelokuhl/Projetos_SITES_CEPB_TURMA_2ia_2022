@@ -98,3 +98,91 @@ footer{
 footer p{
     color: #ffffff;
 }
+
+/* Aplicando media query para site responsivo */
+
+@media(min-width: 480px){
+    
+   p{
+    margin: 6px;
+    font-size: 16px;
+   }
+
+   h2{
+    font-size: 20px;
+   }
+
+   a{
+    font-size: 18px;
+   }
+
+    footer p{
+        font-size: 12px;
+    }
+}
+
+@media(min-width: 768px){
+   
+    p{
+        margin: 2em;
+        font-size: 18px;
+       }
+    
+       h2{
+        font-size: 23px;
+       }
+    
+       a{
+        font-size: 18px;
+       }
+    
+    
+
+    footer p{
+        font-size: 14px;
+    }
+}
+
+@media(min-width: 1024px){
+    
+    p{
+        margin-right: 4em;
+        margin-left: 4em;
+        font-size: 18px;
+       }
+    
+       h2{
+        font-size: 25px;
+       }
+    
+       a{
+        font-size: 20px;
+       }
+    
+
+    footer p{
+        font-size: 16px;
+    }
+}
+
+@media(min-width: 1280px){
+        
+    p{
+        margin-right: 7em;
+        margin-left: 7em;
+        font-size: 19px;
+       }
+    
+       h2{
+        font-size: 27px;
+       }
+    
+       a{
+        font-size: 20px;
+       }
+    
+
+    footer p{
+        font-size: 18px;
+    }
+}
