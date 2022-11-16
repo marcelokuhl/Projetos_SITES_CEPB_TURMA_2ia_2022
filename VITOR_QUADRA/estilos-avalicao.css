@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+}
+body{
+    margin: 0px;
+}
+#caixa1{
+    background-image: url("./imagens/avaliacao.jpg");
+    background-size: cover;
+    height: 789px;
+    width: 100%;
+    display: flex; 
+    opacity: 5;  
+}
+#texto{
+    height: 150px;
+    width: 380px;
+    margin-left: 140px;
+    margin-top: 260px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+#texto p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+#principal{
+    margin-top: 260px;
+    margin-left: 300px;
+    margin-right: 140px;
+}
+.buttom{
+    height: 50px;
+    width: 50%;
+    align-items: right;
+    justify-content: right;
+}
+#buttonEnviar{
+    background: #ffeeff;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    text-align: center;
+    padding: 8px 20px 8px 20px;
+    margin-left: 140px;
+    margin-top: 20px;
+    border: none;
+}
+#buttonEnviar a{
+    text-decoration: none;
+    color: black;
+}
+#button input{
+    background: #f5f6fb;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #575455;
+    border: 0;
+    width: 70%;
+    padding: 10px 90px 10px 90px;
+}
+#buttonEnviar:hover{
+    background-color: #C0C0C0;
+}

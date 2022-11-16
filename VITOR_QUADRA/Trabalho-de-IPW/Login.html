@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="PT-BR" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="style-login.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+
+	<link rel="shortcut icon" type="image/x-icon" href="./imagens/logologin.png">
+</head>
+
+<body>
+
+
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h1>Crie sua Conta</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>ou use seu e-mail para registro</span>
+			<input type="text" placeholder="Nome" />
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Senha" />
+			<button><a href="./Index.html" id="a">Criar Conta</a></button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="#">
+			<h1>Fazer Login</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>ou use sua conta</span>
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Senha" />
+			<a href="#">Esqueceu sua senha?</a>
+			<button><a href="./Index.html" id="a">Fazer Login</a></button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Bem vindo de volta!</h1>
+				<p>Para se manter conectado, faça login com seus dados pessoais</p>
+				<button class="ghost" id="signIn"><a href="#" id="a">Entrar</a></button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Olá!</h1>
+				<p>insira seus dados para criar uma conta</p>
+				<button class="ghost" id="signUp"><a href="#" id="a">Criar uma conta</a></button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="main-login.js" charset="utf-8"></script>
+</body>
+
+</html>

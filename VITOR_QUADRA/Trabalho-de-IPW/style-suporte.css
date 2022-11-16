@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+#principal{
+    display: flex;
+    height: 790px;
+    width: 100%;
+}
+#imagem{
+    background-color: #F0E68C;
+    background-image: url("./imagens/suporte.png");
+    width: 55%;
+    height: 100%;
+    background-size: cover;
+}
+#comentario{
+    width: 60%;
+    height: 100%;
+    background-color: #F0E68C;
+}
+#formulario{
+    margin-top: 120px;
+    margin-left: 70px;
+}
+
+      
+h1, label, button, .description{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+      
+h1{
+    color:var(--h1-color);
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+    font-weight: 300;
+    text-align: center;
+    margin-right: 100px;
+}
+form, input, textarea{
+    text-align: center;
+} 
+label{
+    margin-top: 30px;
+    margin-bottom: 7px;
+}  
+label, .description{
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+      
+form{
+    width: 31.25rem;
+    position: relative;
+    margin-top: 2rem;
+    padding: 1rem 0;
+}
+      
+input, textarea, label{
+    width: 40vw;
+    display: block;
+}
+      
+placeholder, input, textarea{
+    font-family: 'Roboto', sans-serif;
+}
+      
+input::placeholder, textarea::placeholder{
+    color: var(--primary-color);
+}
+      
+input, textarea{
+    color: var(--primary-color);
+    font-weight: 500;
+    background: var(--bg-color);
+    border: none;
+    border-bottom: 1px solid var(--secondary-color);
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+    outline: none;
+}
+      
+textarea{
+    resize: none;
+}      
+input:hover, textarea:hover{
+    opacity: 0.5;
+}
+#botao{
+    margin-top: 50px;
+    text-align: center;
+    background-color: #C0C0C0;
+    color: black;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    border: 0;
+    width: 20%;
+    padding: 10px 20px 10px 20px;
+    margin-right: 10px;
+    margin-left: 60px;
+}
+#botao:hover{
+    background-color: #A9A9A9;
+}
+#botao a{
+    text-decoration: none;
+    color: black;
+}
