@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8fb0935a38.js" crossorigin="anonymous"></script>
+    <title>CATALOGO</title>
+</head>
+<body>
+    
+    <div class="header">
+        <a href="#">
+          <img src="./imgs/capa/IMG-20220917-WA0000.jpg" alt="">
+        </a>
+        <ul>
+          <li><a href="saibaMais.html">Saiba Mais</a></li>
+          
+          <li><a href="#footer">Fale conosco</a></li>
+          <li><a href="carrinho.html"><i class="fa fa-shopping-cart"></i></a></li>
+        </ul>
+    </div>
+
+    <main>
+      <a class="subir" href="#">
+        <i class="fa-solid fa-angles-up"></i>
+      </a>
+      <div class="search">
+          <input type="text" placeholder="  Procure seu produto aqui:" class="input" id="input">
+          <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+
+      <h2 class="titulo-produtos" id="titulo-busca">Resultado da busca:</h2>
+
+      <div id="pesquisa">
+
+      </div>
+
+      <h2 class="titulo-produtos">Todos os produtos:</h2>
+
+      <div id="tudo">
+      
+
+      <div class="product-card" id="1">
+        <div class="badge">novo produto</div>
+        <div class="product-tumb">
+          <img src="./imgs/catalogo/camionete.png" alt="">
+        </div>
+        <div class="product-details">
+          <span class="product-catagory">metal</span>
+          <h4><a href="" class="titulo-produto">camionete</a></h4>
+          <p>Descrição</p>
+          <div class="product-bottom-details">
+          <div class="product-price"><small>R$20.50</small>R$12.99</div>
+          <div class="product-links">
+            <a href="" onclick="carrinho('1')"><i class="fa fa-shopping-cart"></i></a>
+          </div>
+          </div>
+        </div>
+        </div>
+        <script src='https://use.fontawesome.com/7dd91a0fb4.js'></script>
+
+        <div class="product-card" id="2">
+          <div class="badge">novo produto</div>
+          <div class="product-tumb">
+            <img src="./imgs/catalogo/carro_f1.png" alt="">
+          </div>
+          <div class="product-details">
+            <span class="product-catagory">metal</span>
+            <h4><a href="" class="titulo-produto">carro f1</a></h4>
+            <p>Descrição</p>
+            <div class="product-bottom-details">
+            <div class="product-price"><small>R$16.49</small>R$8.99</div>
+            <div class="product-links">
+              <a href="" onclick="carrinho('2')"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            </div>
+          </div>
+          </div>
+                    
+          <div class="product-card" id="3">
+            <div class="badge">novo produto</div>
+            <div class="product-tumb">
+              <img src="./imgs/catalogo/capacete_medieval.png" alt="">
+            </div>
+            <div class="product-details">
+              <span class="product-catagory">metal</span>
+              <h4><a href="" class="titulo-produto">capacete medieval</a></h4>
+              <p>Descrição</p>
+              <div class="product-bottom-details">
+              <div class="product-price"><small>R$35.70</small>R$24.99</div>
+              <div class="product-links">
+                <a href="" onclick="carrinho('3')"><i class="fa fa-shopping-cart"></i></a>
+              </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          
+          <div id="tudo">
+      
+
+          <div class="product-card" id="4">
+            <div class="badge">novo produto</div>
+            <div class="product-tumb">
+              <img src="./imgs/catalogo/caracao.png" alt="">
+            </div>
+            <div class="product-details">
+              <span class="product-catagory">metal</span>
+              <h4><a href="" class="titulo-produto">coração de correia</a></h4>
+              <p>Descrição</p>
+              <div class="product-bottom-details">
+              <div class="product-price"><small>R$15.59</small>R$9.99</div>
+              <div class="product-links">
+                <a href="" onclick="carrinho('4')"><i class="fa fa-shopping-cart"></i></a>
+              </div>
+              </div>
+            </div>
+            </div>
+                                    
+            <div class="product-card" id="5">
+              <div class="badge">novo produto</div>
+              <div class="product-tumb">
+                <img src="./imgs/catalogo/quadro_casa.png" alt="">
+              </div>
+              <div class="product-details">
+                <span class="product-catagory">metal</span>
+                <h4><a href="" class="titulo-produto">quadro</a></h4>
+                <p>Descrição</p>
+                <div class="product-bottom-details">
+                <div class="product-price"><small>R$30.50</small>R$17.99</div>
+                <div class="product-links">
+                  <a href="" onclick="carrinho('5')"><i class="fa fa-shopping-cart"></i></a>
+                </div>
+                </div>
+              </div>
+              </div>
+                          
+            <div class="product-card" id="6">
+              <div class="badge">novo produto</div>
+              <div class="product-tumb">
+                <img src="./imgs/catalogo/espada_medeira1.png" alt="">
+              </div>
+              <div class="product-details">
+                <span class="product-catagory">Madeira</span>
+                <h4><a href="" class="titulo-produto">mini espada</a></h4>
+                <p>Descrição</p>
+                <div class="product-bottom-details">
+                <div class="product-price"><small>R$10.99</small>R$7.99</div>
+                <div class="product-links">
+                  <a href="" onclick="carrinho('6')"><i class="fa fa-shopping-cart"></i></a>
+                </div>
+                </div>
+              </div>
+              </div>
+                                              </div>
+
+              <div id="tudo">
+      
+
+              <div class="product-card" id="7">
+                <div class="badge">novo produto</div>
+                <div class="product-tumb">
+                  <img src="./imgs/catalogo/espada_madeira2.png" alt="">
+                </div>
+                <div class="product-details">
+                  <span class="product-catagory">Madeira</span>
+                  <h4><a href="" class="titulo-produto">espada</a></h4>
+                  <p>Descrição</p>
+                  <div class="product-bottom-details">
+                  <div class="product-price"><small>R$16.49</small>R$8.99</div>
+                  <div class="product-links">
+                    <a href="" onclick="carrinho('7')"><i class="fa fa-shopping-cart"></i></a>
+                  </div>
+                  </div>
+                </div>
+                </div>
+                                                    
+                <div class="product-card" id="8">
+                  <div class="badge">novo produto</div>
+                  <div class="product-tumb">
+                    <img src="./imgs/catalogo/espada_medieval.png" alt="">
+                  </div>
+                  <div class="product-details">
+                    <span class="product-catagory">Metal</span>
+                    <h4><a href="" class="titulo-produto">espada templária</a></h4>
+                    <p>Descrição</p>
+                    <div class="product-bottom-details">
+                    <div class="product-price"><small>R$36.59</small>R$20.99</div>
+                    <div class="product-links">
+                      <a href="" onclick="carrinho('8')"><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                    </div>
+                  </div>
+                  </div>
+                                                        
+                  <div class="product-card" id="9">
+                    <div class="badge">novo produto</div>
+                    <div class="product-tumb">
+                      <img src="./imgs/catalogo/facao.png" alt="">
+                    </div>
+                    <div class="product-details">
+                      <span class="product-catagory">Metal</span>
+                      <h4><a href="" class="titulo-produto">facão</a></h4>
+                      <p>Descrição</p>
+                      <div class="product-bottom-details">
+                      <div class="product-price"><small>R$25.59</small>R$9.99</div>
+                      <div class="product-links">
+                        <a href="" onclick="carrinho('9')"><i class="fa fa-shopping-cart"></i></a>
+                      </div>
+                      </div>
+                    </div>
+                    </div>
+                                                                            </div>
+
+                    <div id="tudo">
+
+
+                      <div class="product-card" id="10">
+                        <div class="badge">novo produto</div>
+                        <div class="product-tumb">
+                          <img src="./imgs/catalogo/faca_de_disco.png" alt="">
+                        </div>
+                        <div class="product-details">
+                          <span class="product-catagory">Metal e Madeira</span>
+                          <h4><a href="" class="titulo-produto">faca</a></h4>
+                          <p>Descrição</p>
+                          <div class="product-bottom-details">
+                          <div class="product-price"><small>R$13.50</small>R$6.99</div>
+                          <div class="product-links">
+                            <a href="" onclick="carrinho('10')"><i class="fa fa-shopping-cart"></i></a>
+                          </div>
+                          </div>
+                        </div>
+                        </div>
+                                                                    
+                        <div class="product-card" id="11">
+                          <div class="badge">novo produto</div>
+                          <div class="product-tumb">
+                            <img src="./imgs/catalogo/mesa.png" alt="">
+                          </div>
+                          <div class="product-details">
+                            <span class="product-catagory">Metal</span>
+                            <h4><a href="" class="titulo-produto">mesa de centro</a></h4>
+                            <p>Descrição</p>
+                            <div class="product-bottom-details">
+                            <div class="product-price"><small>R$49.99</small>R$30.99</div>
+                            <div class="product-links">
+                              <a href="" onclick="carrinho('11')"><i class="fa fa-shopping-cart"></i></a>
+                            </div>
+                            </div>
+                          </div>
+                          </div>
+                                                                        
+                          <div class="product-card" id="12">
+                            <div class="badge">novo produto</div>
+                            <div class="product-tumb">
+                              <img src="./imgs/catalogo/suporte_violao.png" alt="">
+                            </div>
+                            <div class="product-details">
+                              <span class="product-catagory">Metal</span>
+                              <h4><a href="" class="titulo-produto">suporte para violão</a></h4>
+                              <p>Descrição</p>
+                              <div class="product-bottom-details">
+                              <div class="product-price"><small>R$16.49</small>R$8.99</div>
+                              <div class="product-links">
+                                <a href="" onclick="carrinho('12')"><i class="fa fa-shopping-cart"></i></a>
+                              </div>
+                              </div>
+                            </div>
+                            </div>
+                                                                                            </div>
+
+                            <div id="tudo">
+
+
+                              <div class="product-card" id="13">
+                                <div class="badge">novo produto</div>
+                                <div class="product-tumb">
+                                  <img src="./imgs/catalogo/arvore00.png" alt="">
+                                </div>
+                                <div class="product-details">
+                                  <span class="product-catagory">metal</span>
+                                  <h4><a href="" class="titulo-produto">árvore</a></h4>
+                                  <p>Descrição</p>
+                                  <div class="product-bottom-details">
+                                  <div class="product-price"><small>$16.49</small>$8.99</div>
+                                  <div class="product-links">
+                                    <a href="" onclick="carrinho('13')"><i class="fa fa-shopping-cart"></i></a>
+                                  </div>
+                                  </div>
+                                </div>
+                                </div>
+                                                                                    
+                                <div class="product-card" id="14">
+                                  <div class="badge">New Product</div>
+                                  <div class="product-tumb">
+                                    <img src="./imgs/catalogo/bike00.png" alt="">
+                                  </div>
+                                  <div class="product-details">
+                                    <span class="product-catagory">Metal</span>
+                                    <h4><a href="" class="titulo-produto">bicicleta</a></h4>
+                                    <p>Descrição</p>
+                                    <div class="product-bottom-details">
+                                    <div class="product-price"><small>$16.49</small>$8.99</div>
+                                    <div class="product-links">
+                                      <a href="" onclick="carrinho('14')"><i class="fa fa-shopping-cart"></i></a>
+                                    </div>
+                                    </div>
+                                  </div>
+                                  </div>
+                                                                                        
+                                  <div class="product-card" id="15">
+                                    <div class="badge">New Product</div>
+                                    <div class="product-tumb">
+                                      <img src="./imgs/catalogo/cacto00.png" alt="">
+                                    </div>
+                                    <div class="product-details">
+                                      <span class="product-catagory">metal</span>
+                                      <h4><a href="" class="titulo-produto">suporte para flor</a></h4>
+                                      <p>Descrição</p>
+                                      <div class="product-bottom-details">
+                                      <div class="product-price"><small>$16.49</small>$8.99</div>
+                                      <div class="product-links">
+                                        <a href="" onclick="carrinho('15')"><i class="fa fa-shopping-cart"></i></a>
+                                      </div>
+                                      </div>
+                                    </div>
+                                    </div>
+                                                                                                            </div>
+
+                                    <div id="tudo">
+
+
+                                      <div class="product-card" id="16">
+                                        <div class="badge">New Product</div>
+                                        <div class="product-tumb">
+                                          <img src="./imgs/catalogo/escorpiao00.png" alt="">
+                                        </div>
+                                        <div class="product-details">
+                                          <span class="product-catagory">metal</span>
+                                          <h4><a href="" class="titulo-produto">escorpiao</a></h4>
+                                          <p>Descrição</p>
+                                          <div class="product-bottom-details">
+                                          <div class="product-price"><small>$16.49</small>$8.99</div>
+                                          <div class="product-links">
+                                            <a href="" onclick="carrinho('16')"><i class="fa fa-shopping-cart"></i></a>
+                                          </div>
+                                          </div>
+                                        </div>
+                                        </div>
+                                                                                                    
+                                        <div class="product-card" id="17">
+                                          <div class="badge">New Product</div>
+                                          <div class="product-tumb">
+                                            <img src="./imgs/catalogo/flamingo00.png" alt="">
+                                          </div>
+                                          <div class="product-details">
+                                            <span class="product-catagory">metal</span>
+                                            <h4><a href="" class="titulo-produto">flamingo</a></h4>
+                                            <p>Descrição</p>
+                                            <div class="product-bottom-details">
+                                            <div class="product-price"><small>$16.49</small>$8.99</div>
+                                            <div class="product-links">
+                                              <a href="" onclick="carrinho('17')"><i class="fa fa-shopping-cart"></i></a>
+                                            </div>
+                                            </div>
+                                          </div>
+                                          </div>
+                                                                                                        
+                                          <div class="product-card" id="18">
+                                            <div class="badge">New Product</div>
+                                            <div class="product-tumb">
+                                              <img src="./imgs/catalogo/formiga00.png" alt="">
+                                            </div>
+                                            <div class="product-details">
+                                              <span class="product-catagory">metal</span>
+                                              <h4><a href="" class="titulo-produto">formiga</a></h4>
+                                              <p>Descrição</p>
+                                              <div class="product-bottom-details">
+                                              <div class="product-price"><small>$16.49</small>$8.99</div>
+                                              <div class="product-links">
+                                                <a href="" onclick="carrinho('18')"><i class="fa fa-shopping-cart"></i></a>
+                                              </div>
+                                              </div>
+                                            </div>
+                                            </div>
+                                            </div>
+                                            <div id="tudo">
+
+                                            <div class="product-card" id="19">
+                                              <div class="badge">New Product</div>
+                                              <div class="product-tumb">
+                                                <img src="./imgs/catalogo/aviao1.jfif" alt="">
+                                              </div>
+                                              <div class="product-details">
+                                                <span class="product-catagory">metal</span>
+                                                <h4><a href="" class="titulo-produto">avião</a></h4>
+                                                <p>Descrição</p>
+                                                <div class="product-bottom-details">
+                                                <div class="product-price"><small>$16.49</small>$8.99</div>
+                                                <div class="product-links">
+                                                  <a href="" onclick="carrinho('19')"><i class="fa fa-shopping-cart"></i></a>
+                                                </div>
+                                                </div>
+                                              </div>
+                                              </div>
+                                                                                                          
+                                              <div class="product-card" id="20">
+                                                <div class="badge">New Product</div>
+                                                <div class="product-tumb">
+                                                  <img src="./imgs/catalogo/aviao2.jfif" alt="">
+                                                </div>
+                                                <div class="product-details">
+                                                  <span class="product-catagory">metal</span>
+                                                  <h4><a href="" class="titulo-produto">avião</a></h4>
+                                                  <p>Descrição</p>
+                                                  <div class="product-bottom-details">
+                                                  <div class="product-price"><small>$16.49</small>$8.99</div>
+                                                  <div class="product-links">
+                                                    <a href="" onclick="carrinho('20')"><i class="fa fa-shopping-cart"></i></a>
+                                                  </div>
+                                                  </div>
+                                                </div>
+                                                </div>
+                                                                                            
+                                              <div class="product-card" id="21">
+                                                <div class="badge">New Product</div>
+                                                <div class="product-tumb">
+                                                  <img src="./imgs/catalogo/camera.png" alt="">
+                                                </div>
+                                                <div class="product-details">
+                                                  <span class="product-catagory">metal</span>
+                                                  <h4><a href="" class="titulo-produto">câmera</a></h4>
+                                                  <p>Descrição</p>
+                                                  <div class="product-bottom-details">
+                                                  <div class="product-price"><small>$16.49</small>$8.99</div>
+                                                  <div class="product-links">
+                                                    <a href="" onclick="carrinho('21')"><i class="fa fa-shopping-cart"></i></a>
+                                                  </div>
+                                                  </div>
+                                                </div>
+                                                </div>
+                                                                                                                              </div>
+             
+    </main>
+    
+    <footer>
+      <a name="footer"></a>
+      <div>
+        <h1>Entre em contato conosco:</h1>
+      </div>
+      <div class="footer-contatos">
+        <div>
+          <img src="./imgs/capa/logo.png" alt="">
+        </div>
+        <div>
+          <ul>
+            <li><a href="index.html">Saiba Mais</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="carrinho.html">Carrinho</a></li>
+          </ul>
+        </div>
+        <hr>
+        <div>
+          <ul>
+            <li><a href="https://www.instagram.com/p.a.b.l.u/?fbclid=IwAR2Cciq7cyDG4XaQD1o1iec23PMxcxdonssaQpWTwPOFW4M_Ca7b8Uo-hMA">Instagram <i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="https://www.facebook.com/profile.php?id=100010519594616&sk=about">Facebook <i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="https://wa.me/554584130676?text=adicione%20o%20Pablito%20nos%20seus%20contatos%3A">WhatsApp <i class="fa-brands fa-whatsapp"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <p>
+          todos os direitos reservados &REG; Pablo Alves Marques, 2IA, 2022
+      </p>
+      </div>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
