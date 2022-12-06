@@ -141,7 +141,7 @@ footer p{
 }
 
 /* Aplicando media query para site responsivo */
-@media(min-width: 480px){
+@media(min-width: 320px){
     
     #particles-js{
         height: 25em;
