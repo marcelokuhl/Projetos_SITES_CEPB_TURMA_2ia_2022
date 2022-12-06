@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+
+	<meta charset="UTF-8">
+
+		<head>
+			<title> Conta </title>
+		</head>
+
+		<link rel="shortcut icon" type="image/x-icon" href="../img/logo.png">
+
+		<script src="../cdd.js"></script>
+
+		<style type="text/css">
+			body{
+				font-family: Arial, Helvetica, sans-serif;
+				margin: 0;
+			}
+			section{
+				background-color: #f04c5a;
+				margin-top: -22px;
+			}
+			.area-login{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100vh;
+				justify-content: center;
+				align-items: center;
+				}
+			.login{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				background-color: #ffffff;
+				width: 420px;
+				height: 500px;
+				padding: 35px;
+				border-radius: 10px;
+			}
+			.login form{
+				display: flex;
+				flex-direction: column;
+				width: 100%;
+			}
+			.login input{
+				margin-top: 10px;
+				background-color: #f04c5a;
+				border: none;
+				height: 45px;
+				outline: none;
+				border-radius: 8px;
+				color: #f04c5a;
+				padding-left: 10px;
+			}
+			.login img{
+				width: 150px;
+				height: auto;
+			}
+			input::placeholder{
+				color: #3D3A50;
+				font-size: 14px;
+				}
+			form [type="submit"]{
+				display: block;
+				background-color: #0EA2F6;
+				font-size: 20px;
+				text-transform: uppercase;
+				font-weight: bold;
+				cursor: pointer;
+			}
+			p{
+				color: #8860F5;
+			}
+			.p{
+				color: #3D3A50;
+				font-size: 14px;
+			}
+			a{
+				color: red;
+				text-decoration: none;
+				margin-left: 10px;
+			}
+			#voltar{
+				color: white;
+				text-decoration: none;
+				margin-left: 10px;
+			}
+			.botao {
+	    		text-align: center;
+	    		margin-top: 20px;
+			}
+			.botao a{
+				color: #fff;
+			}
+			button{
+	   			background-image: linear-gradient(45deg, #8860F5,#ff4654);
+	    		padding: 13px 38px;
+	    		font-size: 24px;
+	    		color: #8860F5;
+	    		border: none;
+	    		border-radius: 10px;
+	    		cursor: pointer;
+			}
+			@keyframes anima {
+	   			0%{
+	       			transform: scale(1);
+	    	}
+	   		100%{
+	       	transform: scale(1.05);
+	   		}
+	        }
+			button:hover{
+	   			animation-name: anima;
+	   			animation-duration: 0.4s;
+	   			animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+	   			animation-iteration-count: infinite;
+	   			animation-direction: alternate;
+				}	
+			.hdr{
+				padding-top: 3px;
+				padding-left: 3px;
+			}	
+			.lucas{
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				gap:10px;
+			}	
+
+
+			#label{
+				margin-top: 10px;
+				background-color: #fa4454;
+				border: none;
+				height: 45px;
+				outline: none;
+				border-radius: 8px;
+				color: #ff4654;
+				padding-left: 10px;
+				cursor: pointer;
+			}
+
+			input[type="file"] {
+				display: none;
+			}
+
+			.elos{
+				margin-top: -40px;
+				background: #0e161d;
+			}
+
+			.elos h1{
+				font-size: 55px;
+				text-align: center;
+				color: white;
+				padding-top: 30px;
+				padding-bottom: 20px;
+				font-family: Arial, Helvetica, sans-serif;
+			}
+
+
+			.elos img{
+				width: 100%;
+				height: 70%;
+				margin-bottom: -10px;
+			}
+
+			</style>
+	<body background="img/jett.jpng">
+
+	
+
+			<header class="hdr"><a href="../index.html" id="voltar"> Voltar </a></header>
+
+		<section class="area-login">
+			<div class="login">
+				<div>
+					<img src="../img/logo.png">
+				</div>
+
+					<form>
+						<input type="text" name="Nome" placeholder="Nome do Time" autofocus>
+						<input type="text" name="Nome" placeholder="Integrantes" autofocus>
+						<input type="text" name="Nome" placeholder="Discord capitão do Time" autofocus>
+						
+						<label id="label"><p class="p">Faça o Upload de sua logo</p>
+							<input type="file" name="UploadImg"/>
+						</label>
+
+						<div class="lucas">
+							<div>
+								<label>
+									<input type="checkbox" name="Aceitar"> 
+								</label>						
+							</div>
+							Li e aceito os<a href="./politica-privacidade2.html">termos de Privacidade</a>
+						</div>
+
+
+						<div class="botao">
+								<button><a href="../index.html"> Cadastrar </a></button>
+						</div>
+
+					</form>
+			</div>
+		</section>
+		<div class="elos">
+			<div>
+				<h1>
+					Elos Permitidos:
+				</h1>
+				<img src="./img/Elos.jpg">
+			</div>
+		</div>
+
+
+</body>
+</html>

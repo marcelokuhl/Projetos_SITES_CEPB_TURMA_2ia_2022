@@ -1,0 +1,188 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #8860F5;
+    margin: 0 auto;
+}
+ul{
+    padding: 0px!important;
+}
+.topo{
+    width: 100%;
+    background-color: #ffffff;
+    height: 80px;
+    border-bottom: 4px solid #ff4654;
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    float: left;
+    padding: 2px;
+    width: 80px;
+}
+main{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.direita-topo ul li{
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+.direita-topo{
+    width: 10%;
+    float: right;
+}
+.direita-topo img{
+    padding: 10px;
+    width: 30px;
+}
+.esquerda-topo{
+    width: 10%;
+    float: left;
+}
+.esquerda-topo img{
+    padding: 10px;
+    padding-top: 6px;
+    padding-left: 15px;
+    width: 50px;
+}
+.esquerda-topo ul li{
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+.img-fundo{
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.6;
+}
+.h1-texto{
+    text-align: center;
+}
+.texto{
+    text-align: center;
+}
+.botao {
+    text-align: center;
+    margin-top: 20px;
+}
+.botao a{
+    color: #fff;
+}
+button{
+       background-image: linear-gradient(45deg, #8860F5,#ff4654);
+    padding: 13px 38px;
+    font-size: 24px;
+    color: #8860F5;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+@keyframes anima {
+       0%{
+           transform: scale(1);
+}
+   100%{
+   transform: scale(1.05);
+   }
+}
+button:hover{
+       animation-name: anima;
+       animation-duration: 0.4s;
+       animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+       animation-iteration-count: infinite;
+       animation-direction: alternate;
+}
+
+/* PARTE EDITADA POR VITOR DE QUADRA  05-10-2022 e 06-10-2022 */
+
+.imgVava{
+display: flex;
+align-items: center;
+}
+
+#divFilha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 100%; 
+    padding-right: 7rem; 
+}
+
+#divFilha img{
+    width: 200px;
+}
+
+.h1-texto{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+
+}
+
+.texto1{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+#fundo{
+    background-color: #282f37;
+    border-top: 2px #ff4654 solid;
+    border-bottom: 6px #ff4654 solid;
+}
+
+.btn-cadastro{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-cadastro a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video1 video{
+    width: 620px;
+    height: 350px;
+    border-radius: 10px;
+    border: 2px #ffffff solid;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282f37;
+    color: white;
+    padding: 20px;
+}
+
+#linkPolitica{
+    color: #87cefa;
+}
+
+.imgFundo{
+    border: 2px black solid;
+    background-image: url('./img/omen.jpg');
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+
