@@ -83,7 +83,13 @@ p{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+/*testando logo do github 22/08/2023 by Marcelo G. Kuhl*/
 
+#inf span img{
+    display: inline-block;
+    margin: 0px;
+    width: 30px;
+}
 /*Estilizando seta para voltar*/
 
 .container{
