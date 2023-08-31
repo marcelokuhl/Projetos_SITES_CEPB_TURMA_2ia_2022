@@ -74,22 +74,41 @@ p{
     transform: scale(1.1);
 }
 
-#inf img{
+#inf .fotoAluno{
     -webkit-transition: -webkit-transform .3s ease;
     transition: transform .3s ease;
 }
 
-#inf img:hover{
+#inf .fotoAluno:hover{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
-/*testando logo do github 22/08/2023 by Marcelo G. Kuhl*/
+
+/*
+testando logo do github 22/08/2023 by Marcelo G. Kuhl
 
 #inf span img{
     display: inline-block;
     margin: 0px;
     width: 30px;
 }
+*/
+
+/*Ajustando logo do github 30/08/2023 by Vitor de Quadra*/
+
+#inf a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#inf a:hover {
+    text-decoration: underline;
+}
+
+.linkNome {
+    margin-right: 5px;
+}
+
 /*Estilizando seta para voltar*/
 
 .container{
@@ -102,6 +121,7 @@ p{
 .button button{
     border-radius: 100%;
     background-color: #ffffff;
+    padding: 10px 12px;
 }
 
 .button img{
@@ -144,6 +164,15 @@ footer{
 footer p{
     color: #ffffff;
     padding: 1em 0 1em 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 /* Aplicando media query para site responsivo */
