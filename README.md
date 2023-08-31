@@ -10,7 +10,6 @@
 # Projetos_SITES_CEPB_TURMA_2ia_2022
 ## Curso Técnico em Informática Integrado - Disciplina Internet e Programação WEB I 
 <h1 align="center">Repositório Projetos dos Alunos da 2ia - 2022 - Curso Técnico em Informática - CEPB - </h1> 
-<a href="./EDUAR_GODOY/index.html" target="_blanck">EDUAR_GODOY_teste </a>
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
